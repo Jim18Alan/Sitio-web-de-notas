@@ -1,0 +1,183 @@
+@font-face {
+  font-family: 'Titulos';
+  src: url('../fonts/Flix-Normal.ttf');
+}
+
+@font-face {
+  font-family: 'Proxima Soft';
+  src: local('Proxima Soft Light'), local('Proxima-Soft-Light'),
+  url('../fonts/ProximaSoft-Light.woff2') format('woff2'),
+  url('../fonts/ProximaSoft-Light.woff') format('woff'),
+  url('../fonts/ProximaSoft-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Soft Titulos';
+  src: local('Proxima Soft Bold'), local('Proxima-Soft-Bold'),
+  url('../fonts/ProximaSoft-Bold.woff2') format('woff2'),
+  url('../fonts/ProximaSoft-Bold.woff') format('woff'),
+  url('../fonts/ProximaSoft-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*=========================================================================*/
+body {
+  font-size: 18px;: 'Proxima Soft Titulos';
+  background: #eff2fb;
+
+}
+/*=========================================================================*/
+
+
+.module-border-wrap {
+  font-family: 'Proxima Soft Titulos';
+  padding: 70px;
+  margin: auto;
+  text-align: center;
+  background: white;
+  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+}
+
+/*.colores{
+  background-image: linear-gradient(to top, #96fbc4 0%, #ceeaf5 100%);
+  background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+  background-image: linear-gradient(to top, #96fbc4 0%, #ceeaf5 100%);
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+}*/
+
+h1{
+  margin: 0px auto;
+  width: 150px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/*-------------------------------------------------------*/
+nav {
+  font-family: 'Proxima Soft Titulos', serif;
+  position: relative;
+  margin: 0 auto;
+  max-width: 75em;
+  border-radius: 5px;
+  padding: 3px;
+  top: -2.25em;
+}
+.barra{
+  border-radius: 3px;
+  background: white;
+  overflow: hidden;
+}
+ul {
+  margin: 0px;
+  width: 30em;
+  list-style-type: none;
+  float: left;
+}
+
+li {
+  padding: 1.5em 1.5em;
+  float: left;
+  background: white;
+}
+
+li a {
+  font-size: 18px;
+  color: #222;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #743ad5;
+}
+
+.active {
+  /*color: #00C853;*/
+  color: #05c3a7;
+}
+
+section {
+  font-family: 'Proxima Soft', serif;
+  margin: 0 auto;
+  max-width: 71em;
+  border-radius: 5px;
+  border: 1px solid #ddd8e0;
+  box-shadow: 2px 2px 10px #dfe5f4;
+  background: white;
+  padding: 2em;
+}
+
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+.border-gradient-green {
+  border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+}
+
+.border-gradient-blue{
+  background: linear-gradient(to top, rgb(210 213 219),rgb(240 241 245));
+}
+
+/*---------------buscador------------------*/
+#buscar{
+  font-size: 18px;
+  margin: 1em 2em;
+  float: right;
+  width: 300px;
+  padding: 0.3em  2em;
+  border-radius: 40px;
+  border: 2px solid #d2d5db;
+  transition: border-color 0.3s;
+  outline: none;
+}
+
+#buscar:hover{
+  border: 2px solid #96FBC4;
+}
+
+#buscar:focus{
+  border: 2px solid #00C853;
+  border-color: #00ff00;
+}
+
+/*--------------------------------------------*/
+.seccion-semestre{
+  position: relative;
+
+  padding: 3rem 2rem 3rem 2rem;
+  margin: 0;
+  display: inline-block;
+}
+
+.materia {
+  padding: 1.5rem;
+  border-radius: 16px;
+  /*background: linear-gradient(85deg,#434343,#262626);*/
+  color: black;
+  background: white;
+  min-width: 100px;
+  min-height: 80px;
+  /*box-shadow: -2rem 0 3rem -2rem #000;*/
+  box-shadow: rgba(0, 44, 155, 0.15) 0px 6px 20px -6px;
+  margin: 0 0 1rem;
+  position: relative;
+  transition: 1s;
+}
+.materia:hover{
+  box-shadow: rgba(0, 44, 155, 0.51) 2px 12px 40px -12px;
+  top: -1px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+

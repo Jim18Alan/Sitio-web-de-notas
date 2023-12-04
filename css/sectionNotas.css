@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'Proxima Soft';
+  src: local('Proxima Soft Light'), local('Proxima-Soft-Light'),
+  url('../fonts/ProximaSoft-Light.woff2') format('woff2'),
+  url('../fonts/ProximaSoft-Light.woff') format('woff'),
+  url('../fonts/ProximaSoft-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Soft Titulos';
+  src: local('Proxima Soft Bold'), local('Proxima-Soft-Bold'),
+  url('../fonts/ProximaSoft-Bold.woff2') format('woff2'),
+  url('../fonts/ProximaSoft-Bold.woff') format('woff'),
+  url('../fonts/ProximaSoft-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.contenedor > header{
+  font-family: 'Proxima Soft Titulos';
+  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  border-radius: 5px;
+  padding: 1em 2em;
+}
+
+.contenedor{
+  max-width: 71em;
+  margin: 1em auto 3em;
+  border-radius: 5px;
+  border: 1px solid #ddd8e0;
+  box-shadow: 2px 2px 10px #dfe5f4;
+  overflow: hidden;
+}
+
+/*-----------------------------------------------*/
+main{
+  float: left;
+  width: 49.8em;
+  background: white;
+  border-right: 1px solid #ddd8e0;
+}
+
+section {
+  font-family: 'Proxima Soft', serif;
+  padding: 2em;
+}
+
+p{
+  text-align: justify;
+}
+
+/*-----------------------------------------------*/
+aside{
+  font-family: 'Proxima Soft', serif;
+  float: right;
+  width: 21em;
+  background: white;
+}
+aside h3{
+  position: relative;
+  color: white;
+  top: -10px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  background: #6654F1;
+  width: 120px;
+}
+
+
+/*-------------seccion comentarios ------------*/
+
+
+.section-comentarios{
+  width: 17em;
+  height: 28em;
+  margin: 2em auto;
+  background: white;
+  border-radius: 20px;
+  position: relative;
+  border:1px solid #743ad5;
+}
+.section-comentarios img{
+  width: 1.5em;
+  padding: 0.2em;
+  float: right;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  border-radius: 5px;
+  background: #6654F1;
+}
+
+.mensajes{
+  width: 17em;
+  margin: 1em auto;
+  max-height: 350px;
+  background: white;
+  border-top:1px solid #743ad5;
+  overflow-y: auto; /*para la barra*/
+}
+
+.mens{
+  width: 80%;
+  margin: 10px auto;
+  padding: 1em;
+  border-radius: 10px;
+  color: white;
+  background: #6654F1;
+}
+
+.enviar{
+  width: 17em;
+  margin: 1em auto;
+  background: white;
+  border-top:1px solid #743ad5;
+  position: absolute;
+  bottom: 0;
+}
+
+/*-----------buscador--------------*/
+#comentar{
+  font-size: 16px;
+  margin: 0.5em;
+  width: 65%;
+  padding: 0.3em  1em;
+  border-radius: 40px;
+  border: 2px solid #d2d5db;
+  transition: border-color 0.3s;
+  outline: none;   /*para eliminar el contorno al enfocarlo*/
+  /*permite bajar el elemento hasta abajo del contenedor*/
+  float: left;
+}
+
+#comentar:hover{
+  border: 2px solid #96FBC4;
+}
+
+#comentar:focus{
+  border-color: #00ff00;
+}
+
+
+
+
+
+
+
+
+
+
